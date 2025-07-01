@@ -1,0 +1,103 @@
+hello|Hi! How can I help you with your code today?
+how to create a repo|Use 'git init' or create directly on GitHub.com
+what is git|Git is a distributed version control system
+how to commit|Run 'git add <file>' then 'git commit -m "message"'
+python open file|Use 'with open("file.txt") as f: content = f.read()'
+javascript read file|In Node.js: 'fs.readFileSync("file.txt", "utf8")'
+list files in dir|Python: 'os.listdir()'. Bash: 'ls'
+install package|Python: 'pip install package'. Node.js: 'npm install package'
+clone a repo|Run 'git clone https://github.com/user/repo.git'
+create branch|Use 'git checkout -b branch_name'
+merge branches|First checkout target branch, then 'git merge source_branch'
+what is PR|PR means Pull Request - propose changes to a repository
+resolve conflict|Edit conflicted files, then 'git add' and 'git commit'
+undo last commit|Use 'git reset --soft HEAD~1'
+show git history|Run 'git log --oneline'
+delete branch|'git branch -d branch_name' (local), 'git push origin --delete branch_name' (remote)
+python virtualenv|Create: 'python -m venv env'. Activate: 'source env/bin/activate' (Linux/Mac)
+list python packages|Run 'pip freeze'
+what is Docker|Docker is a platform for containerized applications
+run docker container|'docker run -it image_name'
+build docker image|Create Dockerfile then 'docker build -t image_name .'
+what is Kubernetes|Kubernetes is a container orchestration system
+how to push|After commits: 'git push origin branch_name'
+how to pull|Fetch latest changes: 'git pull origin branch_name'
+.gitignore purpose|Specifies files Git should ignore (e.g. logs, binaries)
+python requirements.txt|Lists dependencies: 'pip freeze > requirements.txt'
+javascript package.json|Defines Node.js project metadata and dependencies
+debug python|Use 'import pdb; pdb.set_trace()' or IDE debugger
+debug javascript|Use 'console.log()' or Chrome DevTools
+list running processes|Linux: 'ps aux'. Windows: 'tasklist'
+kill process|Linux: 'kill -9 PID'. Windows: 'taskkill /PID number /F'
+check disk space|Linux: 'df -h'. Windows: 'wmic diskdrive get size,freespace'
+find file|Linux: 'find /path -name "pattern"'. Windows: 'dir /s pattern'
+http status 200|Success - request succeeded
+http status 404|Not Found - resource doesn't exist
+http status 500|Internal Server Error
+rest api basics|Use HTTP methods: GET(read), POST(create), PUT(update), DELETE
+json vs xml|JSON is lightweight, XML has schema support
+what is JWT|JSON Web Token - secure way to transmit claims
+oauth flow|Authorization framework for delegated access
+ssh keygen|Create keys: 'ssh-keygen -t rsa -b 4096'
+add ssh key to github|Paste contents of ~/.ssh/id_rsa.pub in GitHub Settings
+what is CI/CD|Continuous Integration/Delivery - automate testing and deployment
+github actions|YAML workflows for automation in GitHub
+travis ci|Alternative CI/CD service (config via .travis.yml)
+docker compose|Tool for defining multi-container apps
+python lambda|Anonymous function: 'lambda x: x*2'
+javascript arrow|Arrow function: 'const fn = () => {}'
+async/await|Python: 'async def', 'await'. JS: same syntax
+promises js|Handle async: 'new Promise((resolve,reject)=>{})'
+python list comp|[x*2 for x in range(10)]
+js array map|[1,2,3].map(x => x*2)
+python decorator|Function that modifies another function: '@decorator'
+js callback|Function passed as argument to another function
+what is regex|Pattern matching: Python 're', JS '/pattern/'
+sql select|'SELECT * FROM table WHERE condition'
+sql join|Combine tables: 'INNER JOIN table ON condition'
+no sql|MongoDB, Redis - non-relational databases
+orm purpose|Object-Relational Mapping (e.g. SQLAlchemy, Sequelize)
+migration db|Track schema changes (Alembic for Python, Knex for JS)
+postman|API testing tool
+curl example|'curl -X GET https://api.example.com'
+webhook|User-defined HTTP callback for event notifications
+websocket|Persistent bidirectional client-server connection
+graphql|Query language alternative to REST
+python class|'class MyClass: def __init__(self): pass'
+js class|'class MyClass { constructor() {} }'
+inheritance|Python: 'class Child(Parent)'. JS: 'class Child extends Parent'
+static method|Python: '@staticmethod'. JS: 'static myMethod() {}'
+python threading|'from threading import Thread'
+js worker|Web Workers for parallel execution
+python requests|'import requests; requests.get(url)'
+js fetch|'fetch(url).then(res => res.json())'
+python pandas|Data analysis library: 'import pandas as pd'
+python numpy|Numerical computing: 'import numpy as np'
+python matplotlib|Plotting: 'import matplotlib.pyplot as plt'
+js d3|Data visualization library
+linux permissions|'chmod 755 file' (owner:rwx, group:r-x, others:r-x)
+cron job|Schedule tasks: 'crontab -e' then '* * * * * command'
+bash script|File starting with '#!/bin/bash'
+python shebang|First line: '#!/usr/bin/env python3'
+env variables|Python: 'import os; os.getenv("VAR")'. Bash: '$VAR'
+python argparse|'import argparse; parser.add_argument("--name")'
+yaml syntax|Key-value pairs with indentation
+markdown cheatsheet|Headers: '#', Links: '[text](url)', Code: ``` ```
+vim basics|Insert: 'i', Save: ':w', Quit: ':q', Force: '!'
+tmux|Terminal multiplexer: sessions, windows, panes
+ssh tunnel|'ssh -L local_port:remote_host:remote_port user@host'
+port forward|Redirect traffic: iptables or ssh
+nginx config|Server blocks in /etc/nginx/sites-available/
+apache vs nginx|Nginx is lighter, Apache has .htaccess
+load balancer|Distribute traffic across servers
+redis|In-memory key-value store
+rabbitmq|Message broker for distributed systems
+kafka|Distributed event streaming platform
+microservices|Architecture with loosely coupled services
+serverless|Cloud functions (AWS Lambda, etc.)
+terraform|Infrastructure as code
+ansible|Configuration management tool
+prometheus|Monitoring and alerting toolkit
+grafana|Visualization for time-series data
+elk stack|Elasticsearch, Logstash, Kibana for logging
+sentry|Error tracking platform
